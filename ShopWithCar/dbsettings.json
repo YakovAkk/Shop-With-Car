@@ -1,0 +1,6 @@
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=(localdb)\\MSSQLLocalDB;Database=ShopDB;Trusted_Connection=True;TrustServerCertificate=True;",
+    "MySqlDatabase": "Data Source=WIN-ECET0MOLTMV\\SQLEXPRESS;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=True;"
+  }
+}

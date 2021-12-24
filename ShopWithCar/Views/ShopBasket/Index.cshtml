@@ -1,0 +1,21 @@
+﻿@model ShopBasketViewModel
+
+<div class = "container">
+    @foreach(var el in Model.shopBasket.listShopItems)
+    {
+        <div class = "alert alert-warning mt-3">
+            <b>Car : </b> @el.car.name <br/>
+            <b>Price : </b> @el.car.price.ToString("c") <br/>
+        </div>
+        <p>@ViewBag.Mess</p>
+    }
+    <hr/>
+    
+    <a class = "btn btn-danger mb-5" href = "/Order/Checkout">Pay</a>
+    
+</div>
+
+<!--
+ asp-controller = "Order" asp-action = "Checkout"
+
+-->
